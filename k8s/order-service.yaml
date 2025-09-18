@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: <your-dockerhub-username>/order-service:latest
+        image:  090659571557.dkr.ecr.us-east-2.amazonaws.com/order-service:latest
         ports:
         - containerPort: 5000
 ---
