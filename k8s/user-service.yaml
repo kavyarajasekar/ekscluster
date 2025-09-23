@@ -25,6 +25,11 @@ spec:
         image: 090659571557.dkr.ecr.us-east-2.amazonaws.com/user-service:latest
         ports:
         - containerPort: 5000
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "200m"
 ---
 apiVersion: v1
 kind: Service
