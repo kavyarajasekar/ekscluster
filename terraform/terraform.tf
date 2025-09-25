@@ -10,7 +10,7 @@ terraform {
       version = "~> 3.5.1"
     }
 
-    tls = {
+    /*tls = {
       source  = "hashicorp/tls"
       version = "~> 4.0.4"
     }
@@ -18,7 +18,7 @@ terraform {
     cloudinit = {
       source  = "hashicorp/cloudinit"
       version = "~> 2.3.2"
-    }
+    }*/
 
     kubernetes = {
       source  = "hashicorp/kubernetes"
